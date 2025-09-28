@@ -5,7 +5,6 @@ import SkillsRadar from "@/components/SkillsRadar";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import ContactForm from "@/components/ContactForm";
-import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -37,8 +36,6 @@ const Index = () => {
           <ContactForm />
         </section>
       </main>
-      
-      <Footer />
     </div>
   );
 };
