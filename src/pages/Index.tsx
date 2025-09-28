@@ -1,17 +1,18 @@
-import Navigation from "@/components/Navigation";
-import ProfileHeader from "@/components/ProfileHeader";
-import Projects from "@/components/Projects";
-import SkillsRadar from "@/components/SkillsRadar";
-import Experience from "@/components/Experience";
-import Education from "@/components/Education";
-import ContactInfo from "@/components/ContactInfo";
+import Navigation from "@/components/Navigation.jsx";
+import ProfileHeader from "@/components/ProfileHeader.jsx";
+import Projects from "@/components/Projects.jsx";
+import SkillsRadar from "@/components/SkillsRadar.jsx";
+import Experience from "@/components/Experience.jsx";
+import Education from "@/components/Education.jsx";
+import ContactInfo from "@/components/ContactInfo.jsx";
+import "@/styles/global.css";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div style={{ minHeight: '100vh', background: '#0f172a' }}>
       <Navigation />
       
-      <main>
+      <main style={{ paddingTop: '4rem' }}>
         <section id="home">
           <ProfileHeader />
         </section>
