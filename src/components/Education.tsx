@@ -58,33 +58,6 @@ const Education = () => {
     }
   ];
 
-  const continuousLearning = [
-    {
-      course: "Advanced TypeScript Patterns",
-      platform: "Frontend Masters",
-      date: "2024",
-      hours: 40
-    },
-    {
-      course: "Microservices with Node.js",
-      platform: "Udemy",
-      date: "2023",
-      hours: 32
-    },
-    {
-      course: "Machine Learning with Python",
-      platform: "Coursera",
-      date: "2023",
-      hours: 60
-    },
-    {
-      course: "DevOps with Kubernetes",
-      platform: "Linux Academy",
-      date: "2023",
-      hours: 45
-    }
-  ];
-
   return (
     <section className="py-20 px-6 bg-navy-deep/20">
       <div className="max-w-6xl mx-auto">
@@ -212,35 +185,6 @@ const Education = () => {
           </div>
         </div>
 
-        {/* Continuous Learning */}
-        <div>
-          <h3 className="text-3xl font-bold text-foreground mb-8">
-            Continuous Learning
-          </h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {continuousLearning.map((course, index) => (
-              <Card 
-                key={`${course.course}-${course.date}`}
-                className="bg-card/30 backdrop-blur-sm border-border/30 hover:border-primary/30 transition-all duration-300 animate-fade-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <CardContent className="p-4">
-                  <h4 className="font-semibold text-foreground mb-2 text-sm">
-                    {course.course}
-                  </h4>
-                  <div className="text-xs text-muted-foreground space-y-1">
-                    <div>{course.platform}</div>
-                    <div>{course.date}</div>
-                    <Badge variant="outline" className="text-xs">
-                      {course.hours}h
-                    </Badge>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -1,10 +1,10 @@
 import Navigation from "@/components/Navigation";
-import Hero from "@/components/Hero";
+import ProfileHeader from "@/components/ProfileHeader";
 import Projects from "@/components/Projects";
 import SkillsRadar from "@/components/SkillsRadar";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
-import ContactForm from "@/components/ContactForm";
+import ContactInfo from "@/components/ContactInfo";
 
 const Index = () => {
   return (
@@ -13,7 +13,7 @@ const Index = () => {
       
       <main>
         <section id="home">
-          <Hero />
+          <ProfileHeader />
         </section>
         
         <section id="projects">
@@ -33,7 +33,7 @@ const Index = () => {
         </section>
         
         <section id="contact">
-          <ContactForm />
+          <ContactInfo />
         </section>
       </main>
     </div>
