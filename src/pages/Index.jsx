@@ -5,12 +5,13 @@ import SkillsRadar from '../components/SkillsRadar.jsx';
 import Experience from '../components/Experience.jsx';
 import Education from '../components/Education.jsx';
 import ContactInfo from '../components/ContactInfo.jsx';
+import ScrollToTop from '../components/ScrollToTop.jsx';
 
 const Index = () => {
   return (
     <div className="portfolio">
       <Navigation />
-      <main>
+      <main style={{ paddingTop: '5rem' }}>
         <ProfileHeader />
         <Projects />
         <SkillsRadar />
@@ -18,6 +19,7 @@ const Index = () => {
         <Education />
         <ContactInfo />
       </main>
+      <ScrollToTop />
     </div>
   );
 };

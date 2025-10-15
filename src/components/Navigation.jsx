@@ -36,7 +36,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
+    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} style={{ position: 'fixed', zIndex: 1000 }}>
       <div className="container">
         <div className="nav-content">
           <a 

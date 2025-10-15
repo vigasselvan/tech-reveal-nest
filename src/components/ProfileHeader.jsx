@@ -4,7 +4,7 @@ const ProfileHeader = () => {
   const skills = ["React", "TypeScript", "Node.js", "Python", "AWS"];
 
   return (
-    <section className="py-20 px-6 text-center">
+    <section id="home" className="py-16 px-6 text-center">
       <div className="container">
         <img 
           src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face"
