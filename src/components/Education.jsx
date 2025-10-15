@@ -58,7 +58,7 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className="py-16 px-6" style={{ background: 'rgba(15, 23, 42, 0.2)' }}>
+    <section id="education" className="py-16 px-6" style={{ background: 'transparent' }}>
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="gradient-text mb-4">
@@ -165,7 +165,7 @@ const Education = () => {
             Professional Certifications
           </h3>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-4">
             {certifications.map((cert, index) => (
               <div 
                 key={cert.credentialId}

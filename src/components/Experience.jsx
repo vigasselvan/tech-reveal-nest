@@ -79,7 +79,7 @@ const Experience = () => {
   };
 
   return (
-    <section id="experience" className="py-16 px-6">
+    <section id="experience" className="py-16 px-6" style={{ background: 'transparent' }}>
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="gradient-text mb-4">
