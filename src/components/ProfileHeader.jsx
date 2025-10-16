@@ -6,12 +6,6 @@ const ProfileHeader = () => {
   return (
     <section id="home" className="py-16 px-6 text-center">
       <div className="container">
-        <img 
-          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face"
-          alt="John Doe"
-          className="profile-image animate-fade-in"
-        />
-        
         <div className="mb-8 animate-fade-in">
           <h1 className="gradient-text mb-4">
             John Doe
